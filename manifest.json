@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "GoodByeMAX",
+  "version": "1.0",
+  "description": "Расширение для браузера, которое запрещает доступ к мессенджеру MAX",
+  "icons": {
+    "48": "addon/icons/icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://max.ru/*",
+        "*://*.max.ru/*"
+      ],
+      "js": ["addon/redirect.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "goodbyemax@temporary-address.com",
+      "strict_min_version": "58.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
