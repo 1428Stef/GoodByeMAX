@@ -6,7 +6,9 @@
 ### Установка  
 **Firefox Add-Ons**: <a href="#">На проверке</a>  
 *(Ссылка появится после одобрения расширения модерацией.)*
+</br>
 **Tampermonkey**: <a href="https://greasyfork.org/ru/scripts/568050-goodbyemax">установить</a>
+
 
 
 
