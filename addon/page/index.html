@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GoodByeMAX</title>
+</head>
+<body>
+    <div class="container-icon">
+        <img src="icon.png" alt="icon" id="icon">
+    </div>
+    <div class="container-info">
+        <p>MAX лишен сквозного шифрования (E2EE) по умолчанию — ваши сообщения хранятся на серверах в открытом виде, доступны властям и хакерам.</p>
+        <p>Интеграция с Госуслугами открывает дверь мошенникам: фишинг под видом "активации" крадет ваши личные данные, коды и доступ к счетам.</p>
+        <p>Избыточный сбор данных — IP, контакты, метаданные — передается третьим лицам без вашего согласия, превращая чаты в инструмент слежки.</p>
+    </div>
+</body>
+<script>
+    const iconMAX = document.getElementById("icon")
+
+    iconMAX.addEventListener('click', function() {
+        iconMAX.src = "mem.jpg"
+    })
+</script>
+</html>
