@@ -13,7 +13,7 @@ const currentHost = window.location.hostname;
 
 if (redirectList.includes(currentHost)) {
     alert("Goodbye MAX!")
-    window.location.href = "https://1428stef.github.io/GoodByeMAX/";
+    window.location.href = "https://1428yh.github.io/GoodByeMAX/";
 }
 
 
