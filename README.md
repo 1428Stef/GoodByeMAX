@@ -5,7 +5,7 @@
 
 [Манифест](https://1428yh.github.io/GoodByeMAX/)
 
-### Установка  
+### Установка:
 **Firefox Add-Ons**: <a href="https://addons.mozilla.org/ru/firefox/addon/goodbyemax/">установить</a>  
 </br>
 **Tampermonkey**: <a href="https://greasyfork.org/ru/scripts/568050-goodbyemax">установить</a>
