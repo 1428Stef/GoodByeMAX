@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GoodByeMAX",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Расширение для браузера, которое запрещает доступ к мессенджеру MAX",
   "icons": {
     "48": "addon/icons/icon48.png"
